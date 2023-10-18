@@ -7,7 +7,7 @@
 }
 
 @import url('https://fonts.cdnfonts.com/css/tt-chocolates');
-
+@import url('https://fonts.cdnfonts.com/css/tt-hoves-pro-trial');
                 
 
 .html{
@@ -551,23 +551,25 @@
     font-weight: bold;
     color: #86b649;
     width: 80px;
-    align-self: center;
-    padding-left: 100px;
-    padding-top: 100px;
+    align-self: start;
+    padding-top: 150px;
+    padding-left: 150px;
+
   }
 
   .txt{
     text-align: right;
-    padding-top: 150px;
-    width: 1080px;
-    padding-left: 30px;
-   
+    align-self: flex-end;
+    width: 880px;
+    padding-right: 100px;
+    margin-top: -450px;
     font-size: 25px;
   }
 
   .auth{
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
   }
 
   .cir{
@@ -579,4 +581,63 @@
     top: -120px;
     z-index: -5;
     left: -50px;
+  }
+
+  .dots img{
+    height: 250px;
+    position: relative;
+    left: 350px;
+    top: -150px;
+  }
+
+
+
+  .pbox{
+    height: 450px;
+    width: 300px;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 12px;
+  }
+
+  .card{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-self: end;
+    padding-right: 100px;
+    padding-top: 100px;
+    margin-bottom: 50px;
+  }
+
+  .pr{
+    height: 300px;
+  }
+
+  .name{
+    width: 450px;
+    position: relative;
+    top: -220px;
+    left: -75px;
+  }
+
+  .nm{
+    position: relative;
+    top: -465px;
+    left: 80px;
+    font-family: 'TT Hoves Pro Trial', sans-serif;
+    font-size: 15px;
+    width: 150px;
+    font-weight: bold;
+    color: #fff;
+  }
+  .pos{
+    position: relative;
+    top: -440px;
+    left: 60px;
+    font-family: 'TT Hoves Pro Trial', sans-serif;
+    font-size: 15px;
+    width: 200px;
+    font-weight: bold;
+    color: #000;
   }

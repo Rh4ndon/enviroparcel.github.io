@@ -1,0 +1,49 @@
+
+.box_glass{
+    position: absolute;
+    bottom: 30px;
+    
+    /* From https://css.glass */
+    background: rgba(61, 55, 55, 0.3);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(9px);
+    border: 1px solid rgba(61, 55, 55, 0.77);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 80%;
+}
+
+.parg2{
+    margin: 20px;
+    color: #ffff;
+    font-family: 'TT Chocolates', sans-serif;
+    font-size: 25px;
+    max-width: 45%;
+}
+
+.glass_title{
+    
+    top: 200px;
+    position: absolute;
+    color: #ffff;
+    font-size: 60px;
+    
+   
+}
+
+.float{
+    position:absolute;
+    top: 150px;
+    left: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #86B649;
+    padding: 5px;
+    border-radius: 10px;
+    color: #ffff;
+}

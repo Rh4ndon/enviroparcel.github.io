@@ -698,7 +698,8 @@
 .steps{
     position: absolute;
     top: 105px;
-    width: 70%;
+    width: 85%;
+    height: 85%;
 }
 .bck{
     width: 100%;

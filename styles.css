@@ -374,7 +374,7 @@ body::-webkit-scrollbar {
     position: relative;
     top: -1080px;
     left: -1210px;
-    z-index: 0;
+    z-index: -1;
 }
 
 
